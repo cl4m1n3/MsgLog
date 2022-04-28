@@ -31,3 +31,8 @@ You can also enter from 3 to 5. As you wish, this is limited only by the number 
 <li>Infinite message recording</li>
 <li>Convenient message output</li>
 </ul>
+
+# Updates 
+<p align =  "center">
+<b>The plugin has not been updated yet</b>
+</p>
