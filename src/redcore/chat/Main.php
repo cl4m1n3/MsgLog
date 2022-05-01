@@ -9,7 +9,7 @@ use pocketmine\event\player\{PlayerLoginEvent, PlayerChatEvent};
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class MsgLog extends PluginBase implements Listener
+class Main extends PluginBase implements Listener
 {
     
     protected function onEnable() : void 
