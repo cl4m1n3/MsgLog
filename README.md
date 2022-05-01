@@ -34,5 +34,5 @@ You can also enter from 3 to 5. As you wish, this is limited only by the number 
 
 # Updates 
 <p align =  "center">
-<b>The plugin has not been updated yet</b>
+<b>The plugin has not been updated</b>
 </p>
