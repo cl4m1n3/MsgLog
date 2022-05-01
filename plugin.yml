@@ -1,7 +1,7 @@
 name: MsgLog
 main: redcore\chat\MsgLog
 api: 4.2.1
-version: 1.0.0 Beta (ENG)
+version: 1.0.0
 author: RedCore
 commands:
   getmsg:
