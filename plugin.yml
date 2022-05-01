@@ -2,7 +2,6 @@ name: MsgLog
 main: redcore\chat\Main
 api: 4.0.0
 version: 1.0.0
-author: RedCore
 commands:
   getmsg:
     description: get player messages
