@@ -1,33 +1,47 @@
 # MsgLog
 <p align =  "center">
-<b>MsgLog -</b> this is the simplest plugin that allows you to view the messages of any player at your convenience.<br>
+<b>MsgLog -</b> это самый простой плагин, который позволяет просматривать сообщения любого игрока в удобное для вас время.<br>
 <br>
 <a href="https://github.com/CL4M1N3/ChatLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/icon.png"></img></a><br>
-<b>Recording of messages sent to the chat by the player.</b>
+<b>Запись сообщений, отправленных игроком в чат.</b>
 </p>
 
-# Using
-There is only one command in the plugin - <b>/getmsg</b> (permission for this command for PurePerms: <b>use.getmsg</b>)
-<br>
-<br>
-<br>
-to receive player messages, you must enter <b>/getmsg (player name) (number "from") (number "to")</b>
+# Что умеет MsgLog?
+
+<ul>
+<li>Бесконечная запись сообщений каждого игрока</li>
+<li>Запись дополнительных данных о сообщении</li>
+<li>Простейшее отображение всех сообщений в формах</li>
+<li>Возможность использовать функции MsgLog в других плагинах</li>
+</ul>
+
+# Как использовать?
+
+Чтобы открыть настройки плагина, введите <b>/msglog</b>:
 <p align =  "center">
 <a href="https://github.com/CL4M1N3/ChatLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/img_1.jpg"></img></a><br>
 </p>
 <br>
-As a result, you will receive 5 player messages, in order from 1 to 5.
+<br>
+Чтобы получить список всех отправленных сообщений игрока, введите <b>/msglog <ник игрока></b>:
 <p align =  "center">
 <a href="https://github.com/CL4M1N3/ChatLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/img_2.jpg"></img></a><br>
 </p>
-<br> 
-You can also enter from 3 to 5. As you wish, this is limited only by the number of messages sent by this player.
+<br>
+<br>
+Если вы хотите получить подробную информацию о сообщении, введите <b>/msglog <ник игрока> <ID сообщения></b>:
 <p align =  "center">
 <a href="https://github.com/CL4M1N3/ChatLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/img_3.jpg"></img></a><br>
 </p>
 
-# Functions
-<ul>
-<li>Infinite message recording</li>
-<li>Convenient message output</li>
-</ul>
+# Как использовать функции MsgLog в других плагинах?
+
+Чтобы записать сообщение, плагин имеет функцию recordMessage(); 
+```
+public function recordMessage(string $nick, $msg) : void
+```
+Для того, чтобы вставить ее в свой плагин, воспользуйтесь простым кодом:
+```
+$plugin = $this->getServer()->getPluginManager()->getPlugin("MsgLog");
+$plugin->recordMessage($player->getName(), $message);
+```
