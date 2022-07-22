@@ -18,6 +18,7 @@
 # Как использовать?
 
 > **Поскольку плагин еще не реализовал свои собственные формы, необходимо использовать сторонний плагин FormAPI!**
+
 Чтобы открыть настройки плагина, введите <b>/msglog</b>:
 <p align =  "center">
 <a href="https://github.com/CL4M1N3/MsgLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/img_1.jpg"></img></a><br>
