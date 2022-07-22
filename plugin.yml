@@ -1,12 +1,5 @@
 name: MsgLog
-main: redcore\chat\MsgLog
-api: 4.2.1
-version: 1.0.0 Beta (ENG)
-author: RedCore
-commands:
-  getmsg:
-    description: get player messages
-    permission: use.getmsg
-permissions:
-  use.getmsg:
-    default: op
+main: cl4m1n3\MsgLog\Main
+api: 4.0.0
+version: 2.0.0 Alpha
+author: cl4m1n3
