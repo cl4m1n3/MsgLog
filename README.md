@@ -23,13 +23,13 @@
 </p>
 <br>
 <br>
-Чтобы получить список всех отправленных сообщений игрока, введите <b>/msglog <ник игрока></b>:
+Чтобы получить список всех отправленных сообщений игрока, введите <b>/msglog [ник игрока]</b>:
 <p align =  "center">
 <a href="https://github.com/CL4M1N3/MsgLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/img_2.jpg"></img></a><br>
 </p>
 <br>
 <br>
-Если вы хотите получить подробную информацию о сообщении, введите <b>/msglog <ник игрока> <ID сообщения></b>:
+Если вы хотите получить подробную информацию о сообщении, введите <b>/msglog [ник игрока] [ID сообщения]</b>:
 <p align =  "center">
 <a href="https://github.com/CL4M1N3/MsgLog"><img src="https://github.com/cl4m1n3/MsgLog/blob/RedCoreMCPE/decorations/img_3.jpg"></img></a><br>
 </p>
