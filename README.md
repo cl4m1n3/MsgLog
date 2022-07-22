@@ -44,7 +44,7 @@ public function recordMessage(string $nick, $msg) : void
 ```
 Для того, чтобы вставить ее в свой плагин, воспользуйтесь простым кодом:
 ```
-// $message = "сообщение";
+//$message = "сообщение";
 $plugin = $this->getServer()->getPluginManager()->getPlugin("MsgLog");
 $plugin->recordMessage($player->getName(), $message);
 ```
